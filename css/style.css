@@ -122,6 +122,7 @@ a {
 .titles > h3 {
   font-size: 30px;
 }
+
 /* Main */
 .main__wrap {
   margin-top: 400px;
@@ -136,7 +137,7 @@ a {
   height: 508px;
 }
 .main__content {
-  margin: 20px 0;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -146,4 +147,54 @@ a {
 
 .main__content > h1 {
   font-size: 150px;
+}
+.main__content > h2 {
+  color: darkgray;
+  margin-bottom: 30px;
+}
+
+.xx {
+  margin: 30px;
+  width: 30px;
+  height: 12px;
+}
+
+/* bannerlist */
+
+.bannerlist {
+  max-width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.bannerbox {
+  padding: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid darkgray;
+}
+.bannerbox > img {
+  width: 350px;
+  height: 350px;
+}
+.linebox {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.line {
+  width: 100%;
+  margin: 50px;
+  height: 2px;
+  background-color: white;
+}
+
+.plusline > i {
+  color: white;
 }
