@@ -72,11 +72,12 @@ a {
 }
 .title {
   font-size: 50px;
+  margin: 0px 20px;
 }
 .fusion-menu-highlight-label {
   border: 1px solid;
-  padding: 5px;
-  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
   margin-left: 5px;
   font-weight: bold;
 }
