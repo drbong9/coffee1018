@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/base.css"> 
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/fb9aef82aa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <script src="./js/index.js" defer></script>
 </head>
 <body> 
     <section class="main">
@@ -81,39 +83,355 @@
         <div class="bannerlist">
             <div class="bannerbox">
                 <img src="./img/betzone.webp" alt="">
-                <div class="plusline">
-                    <i class="fa-fusion-box" aria-hidden="true"></i>규정 사항
-                </div>
-                <div class="plusline">
-                    <i class="fa-fusion-box" aria-hidden="true"></i>게임 종목
-                </div>
-                <div class="plusline">
-                    <i class="fa-fusion-box" aria-hidden="true"></i>이벤트 목록
-                </div>
-                <div class="plusline">
-                    <i class="fa-fusion-box" aria-hidden="true"></i>가입 코드 및 주소
-                </div>
-            </div>
-            <div class="bannerbox">
-                <img src="./img/totime.gif" alt="">
                 <h1>BETZONE</h1>
-                <h2>해외 솔루션 업체! 월 광고 비 1억!</h2>
-                <h2>대규모 메이저 토토 사이트</h2>
+                <div class="plusline">
+                    <div class="rulemenu">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>규정 사항</h2>
+                    </div>
+                    <ul class="rule">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu1">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>게임 종목</h2>
+                    </div>
+                    <ul class="rule rule1">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu2">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>이벤트 목록</h2>
+                    </div>
+                    <ul class="rule rule2">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu3">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>가입 코드 및 주소</h2>
+                    </div>
+                    <ul class="rule rule3">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
             </div>
             <div class="bannerbox">
-                <img src="./img/zz.gif" alt="">
-                <h1>BETZONE</h1>
-                <h2>해외 솔루션 업체! 월 광고 비 1억!</h2>
-                <h2>대규모 메이저 토토 사이트</h2>
+                <img src="./img/betzone.webp" alt="">
+                <div class="plusline">
+                    <div class="rulemenu">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>규정 사항</h2>
+                    </div>
+                    <ul class="rule">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu1">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>게임 종목</h2>
+                    </div>
+                    <ul class="rule rule1">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu2">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>이벤트 목록</h2>
+                    </div>
+                    <ul class="rule rule2">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu3">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>가입 코드 및 주소</h2>
+                    </div>
+                    <ul class="rule rule3">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
             </div>
             <div class="bannerbox">
-                <img src="./img/jehu.gif" alt="">
-                <h1>제휴모집</h1>
-                <h2>해외 솔루션 업체! 월 광고 비 1억!</h2>
-                <h2>대규모 메이저 토토 사이트</h2>
+                <img src="./img/betzone.webp" alt="">
+                <div class="plusline">
+                    <div class="rulemenu">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>규정 사항</h2>
+                    </div>
+                    <ul class="rule">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu1">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>게임 종목</h2>
+                    </div>
+                    <ul class="rule rule1">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu2">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>이벤트 목록</h2>
+                    </div>
+                    <ul class="rule rule2">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu3">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>가입 코드 및 주소</h2>
+                    </div>
+                    <ul class="rule rule3">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bannerbox">
+                <img src="./img/betzone.webp" alt="">
+                <div class="plusline">
+                    <div class="rulemenu">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>규정 사항</h2>
+                    </div>
+                    <ul class="rule">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu1">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>게임 종목</h2>
+                    </div>
+                    <ul class="rule rule1">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu2">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>이벤트 목록</h2>
+                    </div>
+                    <ul class="rule rule2">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
+                <div class="plusline">
+                    <div class="rulemenu rulemenu3">
+                        <i class="fas fa-plus-square"></i>
+                        <h2>가입 코드 및 주소</h2>
+                    </div>
+                    <ul class="rule rule3">
+                        <li class="rulecontent">
+                            <span style="color:#ee6059; font-size:26px; margin-bottom: 10px 0;">규정 및 기본 사항</span><br>
+                            가입첫충: 10%<br>
+                            첫충: 5%<br>
+                            입 출금 방법: 인터넷 뱅킹 (수표입금불가)<br>
+                            일일 출금 한도: 무제한, 1회 최대 300만원,<br> 1일 2100만원 (추후 상향가능) 환전 후 대기시간 180분<br>
+                            배팅 가능 종목: 가입 시 전 종목 이용 가능<br>
+                            최대 배팅 한도: 스포츠 500만원, <br>라이브배팅 200만원 카지노 200만원 (추후 상향가능)<br>
+                            최대 당첨 한도: 스포츠 2000만원, <br>라이브배팅 1000만원 카지노 2000만원 (추후 상향가능)<br>
+                            단폴더 배팅 한도: 200만원 (추후 상향가능)<br>
+                            마틴 루틴 제재 사항: 없음<br>
+                            스포츠 단폴 및 크로스 배팅: 가능<br>
+                            고객센터 메신저: 사이트내 1:1 라이브 채팅</li>
+                    </ul>
+                </div>
             </div>
         </div>         
     </section>
-   <script src="./js/index.js"></script>
+  
 </body>
 </html>

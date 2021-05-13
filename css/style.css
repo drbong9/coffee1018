@@ -150,7 +150,7 @@ a {
 }
 .main__content > h2 {
   color: darkgray;
-  margin-bottom: 30px;
+  margin: 50px;
 }
 
 .xx {
@@ -180,6 +180,7 @@ a {
 .bannerbox > img {
   width: 350px;
   height: 350px;
+  margin-bottom: 20px;
 }
 .linebox {
   background-color: black;
@@ -194,7 +195,40 @@ a {
   height: 2px;
   background-color: white;
 }
-
-.plusline > i {
+.lines {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.plusline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+.rulemenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rulemenu > i {
   color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.rule {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  transition: all 2s ease-in-out;
+}
+.rulecontent {
+  list-style-type: disc;
+  font-size: 20px;
+  line-height: 30px;
+}
+.active {
+  display: block;
 }
