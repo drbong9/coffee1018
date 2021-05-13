@@ -171,6 +171,7 @@ a {
 
 .bannerbox {
   padding: 30px;
+  margin-bottom: 30px;
   color: white;
   display: flex;
   align-items: center;
