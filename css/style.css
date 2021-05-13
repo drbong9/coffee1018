@@ -55,6 +55,7 @@ a {
   text-decoration: none;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .main__wrap {
   width: 100%;
@@ -109,6 +110,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: -1;
+  transition: all 1s ease-in-out;
+}
+.scroll {
+  opacity: 0;
 }
 .titles > h1 {
   font-size: 120px;
@@ -123,8 +129,21 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 .imgs {
   width: 1032px;
   height: 508px;
+}
+.main__content {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+
+.main__content > h1 {
+  font-size: 150px;
 }
