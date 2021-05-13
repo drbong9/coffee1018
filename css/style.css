@@ -55,7 +55,8 @@ a {
 
 .header {
   width: 100%;
-  background: url("/img/dunk.jpg") no-repeat center/cover;
+  background: url("https://github.com/drbong9/coffee1018/blob/main/img/dunk.jpg")
+    no-repeat center/cover;
 }
 
 .header__menus {
